@@ -1,12 +1,12 @@
 PODS:
-  - LiveAgentChat (0.2.1)
+  - LiveAgentChat (0.1.0)
 
 DEPENDENCIES:
-  - LiveAgentChat (= 0.2.1)
+  - LiveAgentChat (= 0.1.0)
 
 SPEC CHECKSUMS:
-  LiveAgentChat: ba5eaf6d625ea6d84489768154a32657711d3703
+  LiveAgentChat: d6c084f6c9b112d903b5baf41e50808b8e8960db
 
-PODFILE CHECKSUM: 9f045a1ea9cc3f5c56013f6da17620745d78f525
+PODFILE CHECKSUM: 47549d9ccbd138a24c0b75f5f89af7d08677cbdd
 
 COCOAPODS: 1.0.1

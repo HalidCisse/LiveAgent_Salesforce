@@ -29,14 +29,10 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
-
-#import <ServiceCommon/SCPassthroughView.h>
 
 /**
  *  The `LACView` object is an abstraction over UIView which is used by Live Agent Chat to properly handle
  *  hit tests, and ensuring that events are properly passed to the application responder chain when appropriate.
  */
-
-@interface LACView : SCPassthroughView
+@interface LACView : UIView
 @end

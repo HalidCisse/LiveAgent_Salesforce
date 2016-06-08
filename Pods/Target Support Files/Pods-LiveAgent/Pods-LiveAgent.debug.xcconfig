@@ -1,9 +1,9 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PODS_ROOT)/LiveAgentChat/" "${PODS_ROOT}/LiveAgentChat"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PODS_ROOT)/LiveAgentChat/"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "$(PODS_ROOT)/LiveAgentChat/LiveAgentChat.framework/Headers" $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/LiveAgentChat"
-LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks" $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/LiveAgentChat"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/LiveAgentChat"
-OTHER_LDFLAGS = $(inherited) -framework "LiveAgentChat" -framework "SalesforceKit"
+OTHER_LDFLAGS = $(inherited) -framework "LiveAgentChat"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods

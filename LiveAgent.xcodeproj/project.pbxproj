@@ -29,7 +29,7 @@
 		1F79116B1D08742100490E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F79116E1D08742100490E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F7911701D08742100490E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F7911761D08753200490E61 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		1F7911761D08753200490E61 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2FE5994FB5761E2A80AB8E2A /* Pods-LiveAgent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveAgent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiveAgent/Pods-LiveAgent.debug.xcconfig"; sourceTree = "<group>"; };
 		33350B149E59DC0831184198 /* Pods_LiveAgent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveAgent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */

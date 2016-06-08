@@ -32,17 +32,6 @@
 
 @class LACSession;
 @class LACOptions;
-@class LACSessionManager;
-
-@protocol LACDelegate;
-
-/**
- *  LACCompletionHandler block definition
- *
- *  @param error NSError instance describing the error. Error codes can be referenced from <LACErrorCode>
- *  @param lac   The instance of the <LACSessionManager> the block is acting on
- */
-typedef void (^LACCompletionHandler)(NSError *error, __weak LACSessionManager *lac);
 
 /**
  *  The LACSessionManager is the main interface into the LiveAgent Chat SDK.
@@ -62,19 +51,22 @@ typedef void (^LACCompletionHandler)(NSError *error, __weak LACSessionManager *l
 @property (nonatomic, readonly, strong) LACOptions *options;
 
 ///---------------------------------
-/// @name Session Control
+/// @name Initialization
 ///---------------------------------
 
 /**
- *  This method will begin the process for starting a Live Agent Chat session.
+ *  Shared singleton instance for the LACSessionManager.
  *
- *  Equivalent to invoking <[LACSessionManager startSessionWithOptions:completion:]> and providing a `nil` block.
+ *  @warning The LACSessionManager is intended to be used as a singleton. Instantiating a
+ *  standalone instance is not supported.
  *
- *  @param options The <LACOptions> object which represents the session configuration.
- *
- *  @see <[LACSessionManager startSessionWithOptions:completion:]>
+ *  @return The singleton instance of LACSessionManager.
  */
-- (void)startSessionWithOptions:(LACOptions *)options;
++ (instancetype)sharedInstance;
+
+///---------------------------------
+/// @name Session Control
+///---------------------------------
 
 /**
  *  This method will begin the process for starting a Live Agent Chat session.
@@ -84,49 +76,19 @@ typedef void (^LACCompletionHandler)(NSError *error, __weak LACSessionManager *l
  *  asking the user if they wish to terminate the session. <br>
  *
  *  @param options The <LACOptions> object which represents the session configuration.
- *  @param block   Completion block which will be executed when the session has been fully connected to all services.<br/>
- *                __NOTE:__ when the block is executed the session is active and waiting for an agent to join.<br/>
- *                __NOTE:__ the NSError returned in the block will be `nil` on success.
  */
-- (void)startSessionWithOptions:(LACOptions *)options completion:(LACCompletionHandler)block;
+- (void)startSessionWithOptions:(LACOptions *)options;
 
 /**
  *  Stops an active or connecting session.
  *
  *  If the user has not moved past the pre chat phase this will immediately terminate the session and clean up all resources.
- *
- *  Equivalent to invoking <[LACSessionManager stopSessionWithCompletion:]> and providing a `nil` block.
- *
- *  @see [LACSessionManager stopSessionWithCompletion:]
  */
 - (void)stopSession;
 
 /**
- *  Stops an active or connecting session.
- *
- *  If the user has not moved past the pre chat phase this will immediately terminate the session and clean up all resources.
- *
- *  @param block Completion block which will be executed when the session has fully stopped, and all connected services have been torn down.<br/>
- *                __NOTE:__ the NSError returned in the block will be `nil` on success.
+ *  Will force the Live Agent Chat interface to move to the full screen.
  */
-- (void)stopSessionWithCompletion:(LACCompletionHandler)block;
-
-///---------------------------------
-/// @name Delegates
-///---------------------------------
-
-/**
- *  Add an instance of an NSObject implementing the <LACCustomDetailDelegate> protocol to the list of delegates to notify.
- *
- *  @param delegate NSObject instance to add.
- */
-- (void)addDelegate:(id<LACDelegate>)delegate;
-
-/**
- *  Remove an instance of an NSObject implementing the <LACCustomDetailDelegate> protocol to the list of delegates to notify.
- *
- *  @param delegate NSObject instance to remove.
- */
-- (void)removeDelegate:(id<LACDelegate>)delegate;
+- (void)maximize;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <LiveAgentChat/LiveAgentChat.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +17,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // If you've instantiated your own UIWindow use that instead.
+    UIWindow *keyWindow = _window;
+    
+    // This code assumes you already have a rootViewController via the storyboard. If you are instantiating your
+    // own programmatically; then you can skip this step and pass your viewController into the initWithViewController:
+    // initializer on the LACContainerViewController.
+    UIViewController *oldRoot = [keyWindow rootViewController];
+    [keyWindow setRootViewController:nil];
+    
+    // Instantiate the LACContainerViewController with your root view controller
+    // and set it as the rootViewController of your application window.
+    LACContainerViewController *newRoot = [[LACContainerViewController alloc] initWithViewController:oldRoot];
+    [keyWindow setRootViewController:newRoot];
+    
     return YES;
 }
 

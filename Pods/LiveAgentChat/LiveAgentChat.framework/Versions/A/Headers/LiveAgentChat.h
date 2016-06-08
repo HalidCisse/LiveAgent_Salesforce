@@ -33,41 +33,23 @@
 ///---------------------------------
 
 #import <LiveAgentChat/LACSessionManager.h>
-#import <LiveAgentChat/LACRootNavigationController.h>
+#import <LiveAgentChat/LACContainerViewController.h>
 
 #import <LiveAgentChat/LACCustomDetail.h>
 #import <LiveAgentChat/LACOptions.h>
+
+#import <LiveAgentChat/LACWindow.h>
+#import <LiveAgentChat/LACView.h>
+#import <LiveAgentChat/LACSegue.h>
 
 ///---------------------------------
 /// @name Constants
 ///---------------------------------
 
 #import <LiveAgentChat/LACCustomDetailType.h>
-#import <LiveAgentChat/LACSessionState.h>
-#import <LiveAgentChat/LACStopReason.h>
-#import <LiveAgentChat/LACErrorCode.h>
 
 ///---------------------------------
 /// @name Delegate Protocols
 ///---------------------------------
 
 #import <LiveAgentChat/LACCustomDetailDelegate.h>
-#import <LiveAgentChat/LACDelegate.h>
-
-///---------------------------------
-/// @name Categories
-///---------------------------------
-
-#import <LiveAgentChat/SCServiceCloud+LACSessionManager.h>
-
-///---------------------------------
-/// @name UI Appearance
-///---------------------------------
-
-#import <LiveAgentChat/LACView.h>
-#import <LiveAgentChat/LACOverlayView.h>
-#import <LiveAgentChat/LACModalContainerView.h>
-#import <LiveAgentChat/LACModalNavigationBar.h>
-#import <LiveAgentChat/LACConnectingAnimationView.h>
-#import <LiveAgentChat/LACConnectingView.h>
-#import <LiveAgentChat/LACChatView.h>

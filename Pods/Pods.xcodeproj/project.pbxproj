@@ -13,41 +13,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		079089326D9D39F64187690CA5054A72 /* LACSessionState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACSessionState.h; path = LiveAgentChat.framework/Versions/A/Headers/LACSessionState.h; sourceTree = "<group>"; };
-		0A88FECEABAFF74481AFB805209CA174 /* LACRootNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACRootNavigationController.h; path = LiveAgentChat.framework/Versions/A/Headers/LACRootNavigationController.h; sourceTree = "<group>"; };
-		1000763976F50465258D5D28182BBB20 /* LACModalContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACModalContainerView.h; path = LiveAgentChat.framework/Versions/A/Headers/LACModalContainerView.h; sourceTree = "<group>"; };
-		123A38EF12A720AB0C5A276BE73622B2 /* LiveAgentChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveAgentChat.h; path = LiveAgentChat.framework/Versions/A/Headers/LiveAgentChat.h; sourceTree = "<group>"; };
 		1920016C47F80B9D0EC36566EA6166D8 /* Pods_LiveAgent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveAgent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B5A5B10F9F4EF68BCCD21A7EDB83D69 /* LACConnectingAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACConnectingAnimationView.h; path = LiveAgentChat.framework/Versions/A/Headers/LACConnectingAnimationView.h; sourceTree = "<group>"; };
+		1D29D87D3149874F5AE281CCE708DF31 /* LACSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACSessionManager.h; path = LiveAgentChat.framework/Versions/A/Headers/LACSessionManager.h; sourceTree = "<group>"; };
 		1DBD30103E315CBF53A6D1305A45EDE2 /* Pods-LiveAgent-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiveAgent-acknowledgements.plist"; sourceTree = "<group>"; };
 		2914C665D7FDD29F924E58B93F311BBB /* Pods-LiveAgent-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiveAgent-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2B557B378EEBD463306120A829D87607 /* SalesforceKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SalesforceKit.framework; sourceTree = "<group>"; };
 		313C93AD262B7655CCEDAC674C93C0CD /* Pods-LiveAgent-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiveAgent-frameworks.sh"; sourceTree = "<group>"; };
-		34043C8F00DBFC367100028DEA8EB267 /* LACDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACDelegate.h; path = LiveAgentChat.framework/Versions/A/Headers/LACDelegate.h; sourceTree = "<group>"; };
-		48C3492193FBF9BD2B71CA0A45A23C24 /* LACErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACErrorCode.h; path = LiveAgentChat.framework/Versions/A/Headers/LACErrorCode.h; sourceTree = "<group>"; };
-		4CEF156CE0A4871090C837F46A32A27D /* SCServiceCloud+LACSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SCServiceCloud+LACSessionManager.h"; path = "LiveAgentChat.framework/Versions/A/Headers/SCServiceCloud+LACSessionManager.h"; sourceTree = "<group>"; };
-		4E19CC61A1877F43B75DBFBBEB8EDDA1 /* LACCustomDetailDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACCustomDetailDelegate.h; path = LiveAgentChat.framework/Versions/A/Headers/LACCustomDetailDelegate.h; sourceTree = "<group>"; };
 		4F3F4F65F441E0C2A4549ADFCDCC8EA6 /* Pods-LiveAgent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiveAgent-umbrella.h"; sourceTree = "<group>"; };
 		54E17B93B66767A7F6CBEEEB682E4049 /* Pods-LiveAgent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiveAgent.release.xcconfig"; sourceTree = "<group>"; };
-		5EF88AD39605DD7890BCB5FEAD871B7B /* LACOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACOverlayView.h; path = LiveAgentChat.framework/Versions/A/Headers/LACOverlayView.h; sourceTree = "<group>"; };
+		6C29D572C3DF50F87979C8C3F74A2F5B /* JSQMessagesAssets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = JSQMessagesAssets.bundle; path = LiveAgentChat.framework/Versions/A/Resources/JSQMessagesAssets.bundle; sourceTree = "<group>"; };
 		87332A4EA83BBD54637A9E0123011017 /* Pods-LiveAgent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiveAgent.debug.xcconfig"; sourceTree = "<group>"; };
-		90B4A969D79DC7FD8DFEA777468BF2AF /* LACOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACOptions.h; path = LiveAgentChat.framework/Versions/A/Headers/LACOptions.h; sourceTree = "<group>"; };
 		925AFBEC78FABA49BED01562DBF411B0 /* Pods-LiveAgent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LiveAgent.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		953B143A1A9320B5226C1A6F8AE6DC6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95D5631D0FD7DE2588ABD4A6F8A48142 /* JSQMessagesAssets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = JSQMessagesAssets.bundle; path = LiveAgentChat.framework/Versions/A/Resources/JSQMessagesAssets.bundle; sourceTree = "<group>"; };
 		96580B62D5D5D7E05FA5F2177CD1EBFE /* Pods-LiveAgent-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiveAgent-resources.sh"; sourceTree = "<group>"; };
 		98A3CE12BC6D6B86BB643AC3E6782213 /* Pods-LiveAgent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiveAgent-dummy.m"; sourceTree = "<group>"; };
-		BCF9690AA9AEC83BF9EA2D9F1664EC95 /* LACStopReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACStopReason.h; path = LiveAgentChat.framework/Versions/A/Headers/LACStopReason.h; sourceTree = "<group>"; };
+		A1F84F6131EFB7EEAA8DDDBAF64A9C01 /* LiveAgentChat.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LiveAgentChat.bundle; path = LiveAgentChat.framework/Versions/A/Resources/LiveAgentChat.bundle; sourceTree = "<group>"; };
+		AA851D9E62233E42DE9BE275A2A02667 /* LACWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACWindow.h; path = LiveAgentChat.framework/Versions/A/Headers/LACWindow.h; sourceTree = "<group>"; };
+		AF2D952D121AF4084C9B2347630BD197 /* LACCustomDetailDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACCustomDetailDelegate.h; path = LiveAgentChat.framework/Versions/A/Headers/LACCustomDetailDelegate.h; sourceTree = "<group>"; };
+		BA8444F4B1D5DD637A01ED272ED153B7 /* LACView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACView.h; path = LiveAgentChat.framework/Versions/A/Headers/LACView.h; sourceTree = "<group>"; };
+		BFE8D9D9CF90B9CF78BC8A7C8EC86034 /* LACContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACContainerViewController.h; path = LiveAgentChat.framework/Versions/A/Headers/LACContainerViewController.h; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E43545577100653A3378462E9A9A71CB /* LACModalNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACModalNavigationBar.h; path = LiveAgentChat.framework/Versions/A/Headers/LACModalNavigationBar.h; sourceTree = "<group>"; };
-		E48080CAF0DB18D233B1FAB2DA16024A /* LACCustomDetailType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACCustomDetailType.h; path = LiveAgentChat.framework/Versions/A/Headers/LACCustomDetailType.h; sourceTree = "<group>"; };
-		E52D11D81F4BC6C41BA1D67B3991DAA2 /* LACChatView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACChatView.h; path = LiveAgentChat.framework/Versions/A/Headers/LACChatView.h; sourceTree = "<group>"; };
-		E57508E94698C0EBFA22264794080D8D /* LACConnectingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACConnectingView.h; path = LiveAgentChat.framework/Versions/A/Headers/LACConnectingView.h; sourceTree = "<group>"; };
-		E7AA844B5C1741628EFC4515D7B12E04 /* LACSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACSessionManager.h; path = LiveAgentChat.framework/Versions/A/Headers/LACSessionManager.h; sourceTree = "<group>"; };
-		EDD1FF306F7F9D39144D8600FE9BA483 /* LACView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACView.h; path = LiveAgentChat.framework/Versions/A/Headers/LACView.h; sourceTree = "<group>"; };
-		EE8ACBC4E9075D623D47DB0C1A6EAA7C /* LiveAgentChat.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LiveAgentChat.bundle; path = LiveAgentChat.framework/Versions/A/Resources/LiveAgentChat.bundle; sourceTree = "<group>"; };
-		FFD1A1C56824E2590B4B4C812BAB953B /* LACCustomDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACCustomDetail.h; path = LiveAgentChat.framework/Versions/A/Headers/LACCustomDetail.h; sourceTree = "<group>"; };
+		CEE88F669079727C57A53A0213EB64A3 /* LACCustomDetailType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACCustomDetailType.h; path = LiveAgentChat.framework/Versions/A/Headers/LACCustomDetailType.h; sourceTree = "<group>"; };
+		EC40AC5B8A7D320AD36F04198A1D1A56 /* LACCustomDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACCustomDetail.h; path = LiveAgentChat.framework/Versions/A/Headers/LACCustomDetail.h; sourceTree = "<group>"; };
+		EC6FB291BB26EE62FCB888E822D80A54 /* LACSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACSegue.h; path = LiveAgentChat.framework/Versions/A/Headers/LACSegue.h; sourceTree = "<group>"; };
+		EC72E9D775BAA64E2FB7C24455A52570 /* LACOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LACOptions.h; path = LiveAgentChat.framework/Versions/A/Headers/LACOptions.h; sourceTree = "<group>"; };
+		F3535E80A317F584786CDDA1F134747A /* LiveAgentChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveAgentChat.h; path = LiveAgentChat.framework/Versions/A/Headers/LiveAgentChat.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,21 +52,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E8036154B5F43F5F8624915A3FFCF43 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				95D5631D0FD7DE2588ABD4A6F8A48142 /* JSQMessagesAssets.bundle */,
-				EE8ACBC4E9075D623D47DB0C1A6EAA7C /* LiveAgentChat.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		24396B2FB239D1A2A846A7EDD5A8F4CC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				9EB1A80638314650C9B80619636D8618 /* Pods-LiveAgent */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3690A8E43E85F85ED2ECEADB0AF61D72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C29D572C3DF50F87979C8C3F74A2F5B /* JSQMessagesAssets.bundle */,
+				A1F84F6131EFB7EEAA8DDDBAF64A9C01 /* LiveAgentChat.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -87,48 +77,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5E6B47D4A7DBDE5DBD167F45CEAB463A /* LiveAgentChat */ = {
-			isa = PBXGroup;
-			children = (
-				E52D11D81F4BC6C41BA1D67B3991DAA2 /* LACChatView.h */,
-				1B5A5B10F9F4EF68BCCD21A7EDB83D69 /* LACConnectingAnimationView.h */,
-				E57508E94698C0EBFA22264794080D8D /* LACConnectingView.h */,
-				FFD1A1C56824E2590B4B4C812BAB953B /* LACCustomDetail.h */,
-				4E19CC61A1877F43B75DBFBBEB8EDDA1 /* LACCustomDetailDelegate.h */,
-				E48080CAF0DB18D233B1FAB2DA16024A /* LACCustomDetailType.h */,
-				34043C8F00DBFC367100028DEA8EB267 /* LACDelegate.h */,
-				48C3492193FBF9BD2B71CA0A45A23C24 /* LACErrorCode.h */,
-				1000763976F50465258D5D28182BBB20 /* LACModalContainerView.h */,
-				E43545577100653A3378462E9A9A71CB /* LACModalNavigationBar.h */,
-				90B4A969D79DC7FD8DFEA777468BF2AF /* LACOptions.h */,
-				5EF88AD39605DD7890BCB5FEAD871B7B /* LACOverlayView.h */,
-				0A88FECEABAFF74481AFB805209CA174 /* LACRootNavigationController.h */,
-				E7AA844B5C1741628EFC4515D7B12E04 /* LACSessionManager.h */,
-				079089326D9D39F64187690CA5054A72 /* LACSessionState.h */,
-				BCF9690AA9AEC83BF9EA2D9F1664EC95 /* LACStopReason.h */,
-				EDD1FF306F7F9D39144D8600FE9BA483 /* LACView.h */,
-				123A38EF12A720AB0C5A276BE73622B2 /* LiveAgentChat.h */,
-				4CEF156CE0A4871090C837F46A32A27D /* SCServiceCloud+LACSessionManager.h */,
-				FC4E3FD2947A2FCE94DDD7D7AE6BE514 /* Frameworks */,
-				1E8036154B5F43F5F8624915A3FFCF43 /* Resources */,
-			);
-			path = LiveAgentChat;
-			sourceTree = "<group>";
-		};
-		67921F6F84701E858C6EF27DDE805D0C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5E6B47D4A7DBDE5DBD167F45CEAB463A /* LiveAgentChat */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				67921F6F84701E858C6EF27DDE805D0C /* Pods */,
+				E544CD96110B66F53602B9D1551E25C8 /* Pods */,
 				FFDDA3D1B75094EA66C97556A95B9C88 /* Products */,
 				24396B2FB239D1A2A846A7EDD5A8F4CC /* Targets Support Files */,
 			);
@@ -160,12 +114,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FC4E3FD2947A2FCE94DDD7D7AE6BE514 /* Frameworks */ = {
+		D2DA59531297E504F0160501A2890FF4 /* LiveAgentChat */ = {
 			isa = PBXGroup;
 			children = (
-				2B557B378EEBD463306120A829D87607 /* SalesforceKit.framework */,
+				BFE8D9D9CF90B9CF78BC8A7C8EC86034 /* LACContainerViewController.h */,
+				EC40AC5B8A7D320AD36F04198A1D1A56 /* LACCustomDetail.h */,
+				AF2D952D121AF4084C9B2347630BD197 /* LACCustomDetailDelegate.h */,
+				CEE88F669079727C57A53A0213EB64A3 /* LACCustomDetailType.h */,
+				EC72E9D775BAA64E2FB7C24455A52570 /* LACOptions.h */,
+				EC6FB291BB26EE62FCB888E822D80A54 /* LACSegue.h */,
+				1D29D87D3149874F5AE281CCE708DF31 /* LACSessionManager.h */,
+				BA8444F4B1D5DD637A01ED272ED153B7 /* LACView.h */,
+				AA851D9E62233E42DE9BE275A2A02667 /* LACWindow.h */,
+				F3535E80A317F584786CDDA1F134747A /* LiveAgentChat.h */,
+				3690A8E43E85F85ED2ECEADB0AF61D72 /* Resources */,
 			);
-			name = Frameworks;
+			path = LiveAgentChat;
+			sourceTree = "<group>";
+		};
+		E544CD96110B66F53602B9D1551E25C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2DA59531297E504F0160501A2890FF4 /* LiveAgentChat */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		FFDDA3D1B75094EA66C97556A95B9C88 /* Products */ = {
