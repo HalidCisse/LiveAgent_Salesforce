@@ -1,0 +1,120 @@
+/*
+ * Copyright © salesforce.com, inc. 2015
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without modification,
+ * are permitted provided that the following conditions are met:
+ *
+ * Redistributions of source code must retain the above copyright notice, this
+ * list of conditions and the following disclaimer.
+ *
+ * Redistributions in binary form must reproduce the above copyright notice, this
+ * list of conditions and the following disclaimer in the documentation and/or
+ * other materials provided with the distribution.
+ *
+ * Neither the name of the {organization} nor the names of its
+ * contributors may be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+//--------------------------------------------------------------
+// Dialog Strings
+//--------------------------------------------------------------
+
+/* Title of many alert dialogs and views. */
+"LiveAgentChat.Dialog.General.Title" = "LIVE CHAT";
+
+/* Negative option in generic alert dialogs. */
+"LiveAgentChat.Dialog.General.Cancel" = "Cancel";
+
+/* Affirmative option in generic alert dialogs. */
+"LiveAgentChat.Dialog.General.Confirm" = "OK";
+
+/* String presented to mobile user above a number of text fields that require input before submitting a chat request. */
+"LiveAgentChat.Dialog.PreChat.Content" = "Just a couple things before we connect you with an expert...";
+
+/* Label of button for mobile user to press once they have completed necessary text fields and are ready to chat with an agent. */
+"LiveAgentChat.Dialog.PreChat.Confirm" = "CHAT WITH AN AGENT";
+
+/* Title of end session alert dialog presented when a mobile user attempts to end the session. */
+"LiveAgentChat.Dialog.EndSession.Title" = "END SESSION";
+
+/* Message body in end session alert dialog presented when a mobile user attempts to end the session. */
+"LiveAgentChat.Dialog.EndSession.Content" = "Are you sure you wish to end the chat session?";
+
+/* Affirmative option in end session alert dialog presented when a mobile user attempts to end the session. */
+"LiveAgentChat.Dialog.EndSession.Confirm" = "End";
+
+/* Option presented to mobile user for sending a file to an agent by taking a new photo with the camera. */
+"LiveAgentChat.Dialog.Photo.TakePicture" = "Take Photo";
+
+/* Option presented to mobile user for sending a file to an agent by selecting a previously captured image from the device's photo library. */
+"LiveAgentChat.Dialog.Photo.Library" = "Photo Library";
+
+/* Alert message body displayed to mobile user when no agents are available to chat with. */
+"LiveAgentChat.Dialog.NoAgents.Content" = "No agents are available to service your request. Please try again later.";
+
+/* Alert title displayed to mobile user when their chat session has ended. */
+"LiveAgentChat.Dialog.SessionTerminated.Title" = "Session Ended";
+
+/* Alert message body displayed to mobile user when an agent has ended the chat session. */
+"LiveAgentChat.Dialog.SessionTerminated.Content" = "The agent has ended the session.";
+
+//--------------------------------------------------------------
+// Status Strings
+//--------------------------------------------------------------
+
+/* Status message displayed to mobile user when connecting to chat servers. */
+"LiveAgentChat.Status.Connecting" = "Connecting...";
+
+/* Status message displayed to mobile user when agent is currently active in the chat session. */
+"LiveAgentChat.Status.Active.Now" = "active now";
+
+/* Status message displayed to mobile user when agent has been inactive for a minute. */
+"LiveAgentChat.Status.Inactive.SingleMinute" = "active 1 min ago";
+
+/* Status message displayed to mobile user when agent has been inactive for a specific number of minutes. */
+"LiveAgentChat.Status.Inactive.MultipleMinutes" = "active %ld mins ago";
+
+/* Status message displayed to mobile user when agent has been inactive for over an hour. */
+"LiveAgentChat.Status.Inactive.Hour" = "active over an hour ago";
+
+/* Status message displayed to mobile user when waiting for agent to connect to a session. */
+"LiveAgentChat.Status.Waiting" = "Waiting for Agent";
+
+//--------------------------------------------------------------
+// System Strings
+//--------------------------------------------------------------
+
+/* Message displayed to mobile user when agent has initiated a file transfer. */
+"LiveAgentChat.System.FileTransfer.Requested" = "FILE TRANSFER REQUESTED";
+
+/* Message displayed to mobile user when agent has cancelled a previously initated a file transfer. */
+"LiveAgentChat.System.FileTransfer.Cancelled" = "FILE TRANSFER CANCELLED";
+
+/* Message displayed to mobile user when file transfer to the agent has been successful. */
+"LiveAgentChat.System.FileTransfer.Complete" = "FILE TRANSFER COMPLETE";
+
+/* Message displayed to mobile user when file transfer to the agent has failed.  */
+"LiveAgentChat.System.FileTransfer.Failed" = "FILE TRANSFER FAILED";
+
+//--------------------------------------------------------------
+// Input UI Strings
+//--------------------------------------------------------------
+
+/* Placeholder text inside chat input field. */
+"LiveAgentChat.Input.Placeholder" = "Type a message";
+
+/* Label of button to send a message to the agent. */
+"LiveAgentChat.Input.Send" = "Send";
