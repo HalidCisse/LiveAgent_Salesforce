@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  LiveAgent
 //
-//  Created by Halid Cisse on 6/8/16.
+//  Created by Halid Cisse on 6/9/16.
 //  Copyright © 2016 Halid Cisse. All rights reserved.
 //
 
@@ -17,6 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     // If you've instantiated your own UIWindow use that instead.
     UIWindow *keyWindow = _window;
     
@@ -24,12 +25,17 @@
     // own programmatically; then you can skip this step and pass your viewController into the initWithViewController:
     // initializer on the LACContainerViewController.
     UIViewController *oldRoot = [keyWindow rootViewController];
-    [keyWindow setRootViewController:nil];
+    //[keyWindow setRootViewController:nil];
     
     // Instantiate the LACContainerViewController with your root view controller
     // and set it as the rootViewController of your application window.
     LACContainerViewController *newRoot = [[LACContainerViewController alloc] initWithViewController:oldRoot];
     [keyWindow setRootViewController:newRoot];
+    
+//    LACRootNavigationController *newRoot = [[LACRootNavigationController alloc] initWithRootViewController:oldRoot];
+//    
+//    [[UIApplication sharedApplication].keyWindow setRootViewController:newRoot];
+//    [self.window makeKeyAndVisible];
     
     return YES;
 }
